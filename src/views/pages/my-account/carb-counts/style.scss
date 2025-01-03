@@ -1,0 +1,133 @@
+.carb-counts-wrapper {
+  .dalt-table {
+    width: 100%;
+    border: 2px solid black;
+
+    thead {
+      background: black;
+      color: white;
+      border: 1px solid #919191;
+
+      th {
+        padding: 10px;
+        border: 1px solid #919191;
+      }
+    }
+    td {
+      border: 1px solid #919191;
+      padding: 15px 10px;
+      color: black;
+    }
+  }
+  table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {
+    background-color: #f7f7f7;
+  }
+  .header-section {
+    p:first-child {
+      font-size: 45px;
+      line-height: 50px;
+      color: black;
+      //font-weight: 600;
+    }
+    p:last-child {
+      margin-top: 25px;
+      color: #00000073;
+    }
+  }
+  #static-view-wrapper {
+    display: flex;
+    position: fixed;
+    top: 65px!important;
+    width: 100%;
+    background: black;
+
+    p {
+      margin-bottom: 0!important;
+      padding: 10px;
+      //border: 1px solid #919191;
+      color: white;
+    }
+    p:nth-child(1) {
+      width: 100%;
+    }
+    p:nth-child(2) {
+      min-width: 250px;
+    }
+    p:nth-child(3) {
+      min-width: 120px;
+    }
+    p:nth-child(4) {
+      min-width: 150px;
+    }
+  }
+  .tableFixHead {
+    //width: 500px;
+    //min-height: 400px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background: white;
+
+    table {
+      width: 100%;
+    }
+
+    tbody {
+      display: block;
+      width: 100%;
+      overflow: auto;
+      min-height: 200px;
+    }
+    thead tr {
+      display: block;
+    }
+    //th, td {
+    //  padding: 5px 10px;
+    //  width: 200px;
+    //}
+    th:nth-child(1),
+    td:nth-child(1) {
+      //min-width: 400px;
+      width: 100%;
+    }
+    th:nth-child(2),
+    td:nth-child(2) {
+      min-width: 250px;
+    }
+    th:nth-child(3),
+    td:nth-child(3) {
+      min-width: 120px;
+    }
+    th:nth-child(4),
+    td:nth-child(4) {
+      min-width: 150px;
+    }
+
+    //th:nth-child(4){
+    //  min-width: 160px;
+    //}
+  }
+  .sticky {
+    position: fixed;
+    top: 65px;
+    width: 100%;
+    left: 0;
+    padding: 0!important;
+
+    tbody {
+      display: block;
+      width: 100%;
+      overflow: auto;
+      height: calc(100vh - 4.65rem - 15px) !important;
+    }
+    th:nth-child(4){
+      min-width: 160px;
+    }
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  //th {
+  //  background: #ABDD93;
+  //}
+}

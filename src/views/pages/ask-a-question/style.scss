@@ -1,0 +1,110 @@
+@import '../../../assets/scss/custom/custom.scss';
+.ask-a-question-wrapper {
+  background: #C998D4;
+  .header {
+    padding-top: 0;
+    max-width: 70%;
+    margin: auto;
+    p {
+      text-align: center;
+      font-size: 52px;
+      line-height: 55px;
+      //font-weight: 600;
+      color: black;
+      &:last-child {
+        padding-top: 5px;
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 400;
+      }
+    }
+  }
+  .mid-box {
+    padding-right: 30px;
+    padding-top: 45px;
+    &:first-child {
+      padding-top: 0;
+    }
+    p {
+
+      &:first-child {
+        color: black;
+        font-size: 25px;
+        line-height: 26px;
+        font-weight: 600;
+      }
+    }
+  }
+  .right-panel {
+    color: black;
+    input {
+      height: 59px!important;
+    }
+    input, textarea {
+      border: 2px solid black!important;
+      border-radius: 0!important;
+      font-size: 18px!important;
+      &::placeholder {
+        color: gray!important;
+        font-size: 18px!important;
+      }
+    }
+    .react-ripples {
+      height: 59px!important;
+    }
+    button {
+      font-size: 18px!important;
+      height: 59px!important;
+    }
+    textarea {
+     min-height: 240px;
+    }
+    .sub-wrapper {
+      padding-bottom: 10px;
+      p {
+        font-size: 15px;
+        margin-bottom: 4px!important;
+      }
+    }
+    .radio-wrapper {
+      .ui.radio.checkbox {
+        padding-right: 25px;
+        padding-bottom: 0!important;
+      }
+    }
+    .submit-btn-wrapper {
+      .react-ripples {
+        //width: 100%;
+        button {
+          border: 2px solid black!important;
+          padding: 0 50px!important;
+          width: 100%;
+          letter-spacing: 1.3px;
+          font-weight: 400!important;
+          &:hover {
+            background: white!important;
+          }
+        }
+      }
+    }
+  }
+  .min-width-400 {
+    max-width: 900px;
+    margin: auto!important;
+  }
+  @media (max-width: 1200px) {
+    .header {
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .header {
+      p {
+        &:first-child {
+          font-size: 68px;
+          line-height: 80px;
+        }
+      }
+    }
+  }
+}

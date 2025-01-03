@@ -1,0 +1,95 @@
+.meal-planner-wrapper {
+  .text-name-wrapper {
+    padding: 0!important;
+  }
+  .drag-icon-wrapper {
+    padding: 0!important;
+    max-width: 50px!important;
+  }
+  .dragged {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+    //padding: 10px;
+  }
+  .header-section {
+    p:first-child {
+      font-size: 22px;
+      color: #333333;
+      border-bottom: 3px solid;
+      padding-bottom: 18px;
+    }
+    p:last-child {
+      font-size: 16px;
+      font-weight: 600;
+      color: #87257a;
+      padding-bottom: 25px;
+      padding-top: 15px;
+      margin-left: 15px;
+    }
+  }
+  .draggable-container-dhjer {
+    margin-left: 20px;
+  }
+  .legend-wrapper {
+    border-top: 3px solid #333333;
+    color: #333333!important;
+
+    .fr-font {
+      font-size: 24px;
+      line-height: 26px;
+      color: black;
+      font-weight: 600;
+
+    }
+
+    .legend-1 {
+      text-align: center;
+      img {
+        height: 60px;
+        width: 60px;
+        object-fit: contain;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+    .legend-2 {
+      img {
+        height: 60px;
+        width: 100px;
+        object-fit: contain;
+      }
+    }
+  }
+  .edit-meal-btn {
+    color: #61b3ac!important;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    outline: none;
+    height: auto!important;
+    opacity: .7;
+    margin-left: 18px;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+  .editable-raw-wrapper {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+    button {
+      background: white;
+      outline: none;
+      border: none;
+      margin-right: 5px;
+    }
+    input {
+      margin-left: 5px;
+    }
+
+    &:last-child {
+      margin-bottom: 0!important;
+    }
+  }
+}

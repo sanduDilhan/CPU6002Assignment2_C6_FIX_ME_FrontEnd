@@ -1,0 +1,105 @@
+@import '../../../assets/scss/custom/custom.scss';
+.login-wrapper {
+  .title {
+    //color: #862279;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center!important;
+    padding-bottom: 45px;
+    color: black;
+  }
+  .signup-section {
+    max-width: 600px;
+    margin: auto!important;
+    text-align: left!important;
+
+    .text-input-wrapper {
+      p {
+        margin-bottom: 5px!important;
+      }
+    }
+    input,
+    .input-group-text {
+      border: none!important;
+      border-bottom: 1px solid #c0bebe !important;
+      border-radius: 0!important;
+    }
+  }
+  .text-input-wrapper {
+    padding-bottom: 20px;
+  }
+  .login-txt {
+    font-size: 16px;
+    a {
+      color: black;
+    }
+  }
+  button {
+    letter-spacing: 0.5px!important;
+  }
+  .bottom {
+    a, label {
+      font-size: 16px;
+      line-height: 20px;
+      color: black;
+    }
+    label {
+      color: #919191;
+    }
+  }
+}
+.forgot-haader-modal_ {
+  .modal-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 5px 20px;
+  }
+}
+.forgot-psw-wrapper {
+  .body-modal-wrapper {
+    padding: calc(20px - 0.2rem);
+    p {
+      color: #919191;
+      font-size: 17px;
+      text-align: left!important;
+    }
+    .input-wrapper {
+      margin-top: 40px!important;
+      text-align: left!important;
+      margin-bottom: 15px!important;
+      p {
+        color: black!important;
+      }
+    }
+  }
+  .title {
+    //color: #862279;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center!important;
+    padding-bottom: 45px;
+    color: black;
+  }
+}
+.forgot-password-modal {
+  max-width: 588px!important;
+  button {
+    width: 70%;
+  }
+  .step-1-email {
+
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+  }
+  .input-group-text{
+    border-left: none!important;
+    border-right: none!important;
+    border-top: none!important;
+  }
+}

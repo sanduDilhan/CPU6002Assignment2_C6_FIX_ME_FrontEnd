@@ -1,0 +1,35 @@
+@import '../../../assets/scss/custom/custom.scss';
+.faq-wrapper {
+  .row-title-text {
+    color: $cmn-red;
+    font-weight: 600;
+    padding-left: 35px;
+    padding-right: 0!important;
+
+  }
+  .row-title {
+    padding-bottom: 15px;
+  }
+  .icon-wrapper {
+    font-size: 26px;
+    max-width: 30px!important;
+    max-height: 30px!important;
+    min-width: 30px!important;
+    transform: rotate(0deg) !important;
+
+    left: 0!important;
+    display: flex!important;
+    align-items: center!important;
+  }
+  .row-content-text > p {
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+
+  }
+  .faq-row {
+    margin-top: 15px;
+    &:first-child {
+      margin-top: 0!important;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+happy-shopping*
+node_modules/
+.idea
+*.zip
+build/
+ROOT/
+#"build": "react-app-rewired build && cp build/index.html build/200.html && cd build && surge",
+#scp -r build/*  ssh root@103.125.216.56:/var/www/html/blow/web/customer
+#scp -r *  ssh root@103.125.216.56:/var/www/html/blow/web/admin
+#BEr8mzJEtJdY

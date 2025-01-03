@@ -1,0 +1,87 @@
+.p-box {
+  background-color: #000000;
+  margin: 0px 0px 0px 0px;
+  padding: 50px 10px 50px 10px;
+
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+  border-color: #61B3AC;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  //margin: 0px 10px 0px 10px;
+  //padding: 0px 0px 0px 0px;
+  color: white;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.a-tag {
+  text-align: right;
+  width: 100%;
+  border-bottom: 1px solid;
+}
+.p-box-1 {
+  text-transform: uppercase;
+  border-color: #61B3AC;
+  &:hover {
+    background-color: #87237A;
+  }
+}
+.p-box-2 {
+  text-transform: uppercase;
+  border-color: #F5D152;
+  &:hover {
+    background-color: #61B3AC;
+  }
+}
+.p-box-3 {
+  text-transform: uppercase;
+  border-color: #87237A;
+  &:hover {
+    background-color: #61B3AC;
+  }
+}
+.p-box-4 {
+  text-transform: uppercase;
+  border-color: #61B3AC;
+  &:hover {
+    background-color: #87237A;
+  }
+}
+//-------
+.dataTable-custom {
+  border: 1px solid lightgrey;
+  .rdt_Table {
+    font-size: 14px;
+  }
+  .rdt_TableHeadRow {
+    background: #ededed !important;
+    font-size: 15px!important;
+    color: black;
+    //font-weight: 600;
+  }
+  .rdt_TableCol {
+    border-left: 1px solid lightgrey;
+    &:first-child {
+      border: none;
+    }
+  }
+  .rdt_TableCell {
+    border-left: 1px solid lightgrey;
+    &:first-child {
+      border: none;
+    }
+  }
+}
+.rdt_TableHeadRow-color-white {
+  .rdt_TableHeadRow {
+    background: white !important;
+    font-weight: 500;
+  }
+}
+.apexcharts-tooltip-series-group {
+  &:first-child {
+    background: red!important;
+  }
+}

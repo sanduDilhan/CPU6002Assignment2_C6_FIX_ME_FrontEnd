@@ -1,0 +1,82 @@
+@import '../../../assets/scss/custom/custom.scss';
+.contact-wrapper {
+  .header {
+    padding-top: 35px;
+    max-width: 70%;
+    margin: auto;
+    p {
+      text-align: center;
+      font-size: 105px;
+      line-height: 110px;
+      font-weight: 600;
+      color: black;
+      &:last-child {
+        padding-top: 25px;
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 400;
+      }
+    }
+  }
+  .mid-box {
+    padding-right: 30px;
+    padding-top: 45px;
+    &:first-child {
+      padding-top: 0;
+    }
+    p {
+
+      &:first-child {
+        color: black;
+        font-size: 25px;
+        line-height: 26px;
+        font-weight: 600;
+      }
+    }
+  }
+  .right-panel {
+    color: black;
+    input, textarea {
+      border: 1px solid black!important;
+      //border-radius: 0!important;
+    }
+    .sub-wrapper {
+      padding-bottom: 25px;
+      p {
+        font-size: 15px;
+        margin-bottom: 4px!important;
+      }
+    }
+    .radio-wrapper {
+      .ui.radio.checkbox {
+        padding-right: 25px;
+        padding-bottom: 0!important;
+      }
+    }
+    .submit-btn-wrapper {
+      .react-ripples {
+        width: 100%;
+        button {
+          width: 100%;
+          letter-spacing: 1.3px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .header {
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .header {
+      p {
+        &:first-child {
+          font-size: 68px;
+          line-height: 80px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.weight-tracker-wrapper {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  .header-section {
+    p:first-child {
+      font-size: 32px;
+      line-height: 36px;
+      color: black;
+      //font-weight: 600;
+    }
+    //p:last-child {
+    //  margin-top: 25px;
+    //  color: #00000073;
+    //}
+  }
+  .tab-pane {
+    z-index: 10;
+    .tab-1, .tab-2 {
+      padding: 12px 20px;
+      border: 1px solid #c2c2c2;
+      background: #f1f1f1;
+      color: black;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      cursor: pointer;
+      span {
+        margin-left: 12px;
+      }
+    }
+    .tab-1 {
+      border-right: none!important;
+    }
+    .active-tab {
+      background: white;
+      border-bottom: none!important;
+    }
+    .tab-2 {
+
+    }
+  }
+  .panel {
+    margin-top: -1px;
+    border: 1px solid #c2c2c2;
+    padding: 25px 20px;
+    .title {
+      font-size: 20px;
+      line-height: 24px;
+      color: black;
+    }
+
+    .target-btns {
+      margin-top: 15px;
+      button {
+        color: #c36;
+        border: 1px solid #c36;
+        border-radius: 3px!important;
+        margin-right: 10px;
+        background: white;
+        padding: 0 15px;
+        font-weight: 500!important;
+        font-size: 15px;
+        &:hover {
+          background: #c36;
+          color: white;
+        }
+      }
+    }
+    .weight-entry-field {
+      margin-bottom: 7px;
+    }
+  }
+}

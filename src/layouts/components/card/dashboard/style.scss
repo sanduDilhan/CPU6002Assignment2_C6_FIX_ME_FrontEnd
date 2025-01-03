@@ -1,0 +1,40 @@
+@import "../../../../assets/scss/custom/custom";
+.dashboard-card {
+  min-height: 132px;
+  .mt-3__ {
+    margin-bottom: 20px!important;
+    color: #1e1e1e;
+    margin-top: 5px;
+  }
+  .stat-title {
+    margin-bottom: 15px!important;
+  }
+  .title-section {
+    text-align: center;
+    width: 100%;
+    color: #1e1e1e;
+  }
+  .stats-card-body {
+    border-radius: 6px;
+  }
+  .blue {
+    //background: #b8d3f3;
+    background: #ffffff;
+    border: 1px solid $cmn-light-color;
+  }
+  .purple {
+    //background: #daceff;
+    background: #ffffff;
+    border: 1px solid $cmn-light-color;
+  }
+  .green {
+    //background: #b6f3c6;
+    background: #ffffff;
+    border: 1px solid $cmn-light-color;
+  }
+  .red {
+    //background: #CC1B2B;
+    background: #ffffff;
+    border: 1px solid $cmn-light-color;
+  }
+}
