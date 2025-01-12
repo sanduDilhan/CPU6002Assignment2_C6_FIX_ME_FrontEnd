@@ -11,6 +11,7 @@ const RippleButton = ({ rippleColor, during, block, ...rest }) => (
   >
     <Button {...rest} />
   </Ripples>
+  
 )
 
 RippleButton.propTypes = {

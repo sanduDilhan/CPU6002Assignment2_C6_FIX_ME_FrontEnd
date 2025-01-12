@@ -10,6 +10,7 @@ class Avatar extends React.Component {
             this.props.className
           }`,
           {
+            
             "avatar-sm": this.props.size && this.props.size === "sm",
             "avatar-lg": this.props.size && this.props.size === "lg",
             "avatar-xl": this.props.size && this.props.size === "xl"
