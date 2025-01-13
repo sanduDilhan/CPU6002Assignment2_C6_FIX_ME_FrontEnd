@@ -113,7 +113,16 @@ class Autocomplete extends React.Component {
     }
 
     // Custom Keydown Event
-    if (
+  //   if (
+  //     this.props.onKeyDown !== undefined &&
+  //     this.props.onKeyDown !== null &&
+  //     this.props.onKeyDown
+  //   ) {
+  //     this.props.onKeyDown(e, userInput)
+  //   }
+  // }
+
+  if (
       this.props.onKeyDown !== undefined &&
       this.props.onKeyDown !== null &&
       this.props.onKeyDown
