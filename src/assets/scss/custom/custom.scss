@@ -1,0 +1,237 @@
+//#9E3099 -light
+//#72369B -dark
+
+@font-face {font-family: "FR";
+  src: url("../../fonts/FjallaOne-Regular.ttf"); /* IE9*/
+}
+@font-face {font-family: "RR";
+  src: url("../../fonts/ReenieBeanie-Regular.ttf"); /* IE9*/
+}
+@font-face {font-family: "Font Bold";
+  src: url("../../fonts/gilroy/DMSans-Bold.ttf");
+}
+@font-face {font-family: "Font Medium";
+  src: url("../../fonts/gilroy/DMSans-Medium.ttf");
+}
+@font-face {font-family: "Font Light";
+  src: url("../../fonts/gilroy/DMSans-Light.ttf");
+}
+
+//Variables
+$cmn-light-color: #343a40 !important;
+$cmn-dark-color: #000000 !important;
+$cmn-dark-color-not-important: #343a40;
+//$cmn-gradient-bg: linear-gradient(91.2deg, #2c2c2c 0%, #2c2c2c 100%);
+//$cmn-gradient-bg-hover: linear-gradient(91.2deg, #2c2c2c 0%, #2c2c2c 100%);
+$cmn-gradient-bg: #000000;
+$cmn-gradient-bg-hover: #F6D252;
+$cmn-color: #737373 !important;
+$bcon-normal-gray-shadow: -1px 1px 8px rgba(116, 116, 116, 0.2)!important;
+$cmn-font: "Font Medium"!important;
+$cmn-rr-font: "RR"!important;
+$cmn-fr-font: "FR"!important;
+$cmn-red: #87257A!important;
+$cmn-light: #F6D252!important;
+$cmn-light-green: #61B3AC!important;
+$cmn-light-purple: #CA99D5!important;
+
+//Roboto
+
+.bcon-light {
+  color: #9E3099;
+}
+.bcon-light-bg {
+  background: #9E3099;
+}
+.bcon-dark {
+  color: #72369B;
+}
+.bcon-dark-bg {
+  background: #72369B;
+}
+
+//inputs ~ labels
+[dir] .form-control:focus {
+  background-color: #fff!important;
+  border-color: $cmn-light-color;
+  box-shadow: none!important;
+    //box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15)!important;
+}
+.form-control:focus ~ .form-control-position svg {
+  stroke: $cmn-light-color;
+}
+.form-label-group > input:focus:not(:placeholder-shown) ~ label,
+.form-label-group > textarea:not(:active):not(:placeholder-shown) ~ label{
+  color: $cmn-light-color;
+}
+
+.form-label-group > input:not(:focus):not(:placeholder-shown) ~ label, .form-label-group textarea:not(:focus):not(:placeholder-shown) ~ label {
+  color: #c2c6dc !important;
+}
+//buttons
+[dir] .btn-primary {
+  border-color: $cmn-light-color;
+  background-color: $cmn-light-color;
+  border-radius: 50px;
+
+  &:hover {
+
+  }
+}
+
+
+[dir] .btn-outline-primary:not(:disabled):not(.disabled):active:focus, [dir] .btn-outline-primary:not(:disabled):not(.disabled).active:focus, [dir] .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(230, 89, 240, 0.5);
+}
+[dir] .btn-outline-primary:not(:disabled):not(.disabled):active, [dir] .btn-outline-primary:not(:disabled):not(.disabled).active, [dir] .show > .btn-outline-primary.dropdown-toggle {
+  background-color: $cmn-light-color ;
+  border-color: $cmn-light-color ;
+  color: white!important;
+}
+[dir] .btn-outline-primary {
+  border: 1px solid $cmn-light-color;
+  background-color: transparent;
+  color: $cmn-light-color!important;
+}
+
+.bcon-gradient-btn {
+  background: $cmn-gradient-bg!important;
+  border-radius: 8px!important;
+}
+.cmn-gradient-bg {
+  background:  $cmn-gradient-bg!important;
+  &:hover {
+    background: $cmn-gradient-bg-hover!important;
+  }
+}
+.bcon-outline-btn {
+  background: #FFFFFF!important;
+  border: 1px solid #9E3099!important;
+  border-radius: 8px!important;
+  color: $cmn-light-color;
+  &:hover {
+    color: $cmn-light-color;
+  }
+  &:focus {
+    color: $cmn-light-color;
+  }
+}
+
+//checkbox
+[dir] .vx-checkbox-primary input:checked ~ .vx-checkbox {
+  border-color: $cmn-light-color;
+}
+[dir] .vx-checkbox-primary input:checked ~ .vx-checkbox .vx-checkbox--check {
+  background-color: $cmn-light-color;
+}
+
+//common-styles
+.text-primary {
+  color: $cmn-dark-color;
+}
+.primary {
+  color: $cmn-light-color;
+}
+.opacity-law-text {
+  font-weight: normal;
+  font-size: 13px;
+  color: #2C2C2C;
+  opacity: 0.6;
+}
+
+//promotion-table
+[dir=ltr] table.dashboard-table tr th:first-child {
+  padding-left: 2rem!important;
+}
+[dir=ltr] table.dashboard-table tr td:first-child, [dir=ltr] table.dashboard-table tr th:first-child {
+  padding-left: 2rem!important;
+}
+body,tspan,text,div,td,th,button,input,span,a {
+  font-family: $cmn-font;
+}
+
+.fr-font {
+  font-family: "FR"!important;
+}
+// cursive pattern
+.rr-font {
+  font-family: "RR"!important;
+}
+input {
+  &::placeholder {
+    font-size: 14px!important;
+    //color: rgba($black, 0.4);
+    //transition: all 0.2s ease;
+  }
+
+  font-size: 15px!important;
+}
+.form-group label {
+  font-size: 12px;
+}
+button, .swal-button {
+  border-radius: 0px!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+//datepicker
+[dir] .flatpickr-input[readonly] {
+  cursor: pointer!important;
+}
+[dir] .form-control.flatpickr-input, [dir] .form-control.flatpickr-input~input {
+  background-color: #fff!important;
+}
+
+.opacity-zero {
+  opacity: 0!important;
+}
+.align-center {
+  text-align: center!important;
+}
+.align-right {
+  text-align: right!important;
+}
+.left-float {
+  float: right!important;
+}
+.inline-display {
+  display: inline-flex;
+}
+// radio button
+.vx-radio-con .vx-radio .vx-radio--border, .vx-radio-con .vx-radio .vx-radio--circle {
+  height: 16px!important;
+  width: 16px!important;
+}
+.vx-radio-con .vx-radio {
+  margin-right: 1rem!important;
+}
+.vx-radio-con input:checked ~ .vx-radio .vx-radio--circle {
+  background: #2c2c2c!important;
+}
+.apexcharts-text tspan {
+  fill: #4c4c4c!important;
+}
+//dropdown
+.ui.fluid.dropdown {
+  width: 100%;
+  min-width: 0em;
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+.ui.selection.active.dropdown .menu, .ui.active.selection.dropdown{
+  border-color: $cmn-light-color;
+  //box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+}
+
+//toast
+.toast-error {
+  background-color: #BD362F!important;
+}
+.toast-success {
+  background-color: #51A351!important;
+}
+.toast-warning {
+  background-color: #F89406!important;
+}

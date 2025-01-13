@@ -1,0 +1,107 @@
+// ================================================================================================
+// 	File Name: authentication.scss
+// 	Description: Page content different authentication pages layouts SCSS.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: Vuexy React Admin Template
+// 	Version: 1.0
+// 	Author: PIXINVENT
+// 	Author URL: http://www.themeforest.net/user/pixinvent
+// ================================================================================================
+
+// Core mixins
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/mixins";
+@import "../bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "../core/variables/variables";
+@import "~bootstrap/scss/_variables.scss";
+
+// Overrides user variable
+@import "../core/variables/components-variables";
+
+// authentication pages background
+.bg-authentication {
+  background-color: $blank-bg-color;
+  .auth-title,
+  .vx-checkbox-con span,
+  .divider .divider-text {
+    color: $body-color;
+  }
+  .auth-footer {
+    padding: 0rem 1.5rem 0.5rem;
+    .footer-btn {
+      .btn {
+        padding: 0.87rem 1.2rem !important;
+        margin: 1rem 1rem 1rem 0rem;
+      }
+    }
+  }
+}
+.bcon-off-logo {
+  position: absolute;
+  width: 100px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  //margin-top: -50px;
+}
+.bcon-off-logo-reg {
+  //margin-top: -65px;
+  //border-radius: 50%;
+  //height: 70px;
+  //width: 70px;
+  //object-fit: cover;
+  margin-bottom: 0px;
+  //box-shadow: 0px 4px 25px 0px rgba(1, 167, 127, 0.38);
+
+  height: 75px;
+  height: 220px;
+}
+.login-tabs-container {
+  min-height: 505px;
+}
+.login-left-img {
+  width: 100%;
+}
+.footer-off-img-wrapper {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0 !important;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-size: 80%;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+}
+.footer-off-img {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+}
+.inquiry-signup,.login-form {
+  .w-100 {
+    z-index: 100;
+  }
+}
+.modal-backdrop {
+  //background-color: transparent;
+}
+// Unlock btn spacing in sm
+
+@media (max-width: 769px) {
+  .bcon-off-logo {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .unlock-btn {
+    margin-top: 1rem;
+  }
+}
