@@ -36,7 +36,19 @@ class App extends Component {
           Cookies.set(constant.USER_CURRENT_PACKAGE_ACTIVE, YES_TYPE);
           this.setState({pageStatus: true})
         }else{
-          swal({
+          // swal({
+          //   title: response.message,
+          //   icon: 'error',
+          //   closeOnClickOutside: false,
+          //   buttons: {
+          //     dangerMode: {
+          //       text: "Got it",
+          //       value: "action",
+          //       className: "okay-btn"
+          //     }
+          //   }
+          // })
+           swal({
             title: response.message,
             icon: 'error',
             closeOnClickOutside: false,
@@ -60,16 +72,17 @@ class App extends Component {
         }
       })
     }else{
-      swal({
-        title: "Session not found",
-        icon: 'error',
-        closeOnClickOutside: false,
-        buttons: {
-          dangerMode: {
-            text: "Okay", value: "action", className: "okay-btn"
+        swal({
+          title: "Session not found",
+          icon: 'error',
+          closeOnClickOutside: false,
+          buttons: {
+            dangerMode: {
+              text: "Okay", value: "action", className: "okay-btn"
+            }
           }
-        }
-      })
+          
+        })
         .then((value) => {
           switch (value) {
             case "action":
