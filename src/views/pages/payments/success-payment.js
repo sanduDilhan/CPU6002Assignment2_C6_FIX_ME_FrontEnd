@@ -116,8 +116,16 @@ class App extends Component {
               </div>
             </div>
 
+
           </Col>
-          <Col md={6} className={'pb-2 our-website-wrapper'}>
+          {/* <Col md={6} className={'pb-2 our-website-wrapper'}>
+            <div className={'sw-wrapper'}>
+              <p>Visit Our Website</p>
+              <button onClick={()=> this.visitHomePage()}>Visit Website</button>
+            </div>
+
+          </Col> */}
+           <Col md={6} className={'pb-2 our-website-wrapper'}>
             <div className={'sw-wrapper'}>
               <p>Visit Our Website</p>
               <button onClick={()=> this.visitHomePage()}>Visit Website</button>
