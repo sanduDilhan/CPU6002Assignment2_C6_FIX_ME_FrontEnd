@@ -1,0 +1,130 @@
+@import "../../../../assets/scss/custom/custom";
+
+.sidebar-header {
+  //background: $cmn-dark-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //height: 4.65rem!important;
+  //height: 80px!important;
+
+  .navbar-brand {
+    margin-top: 0.8rem !important;
+  }
+
+  .brand-logo_ {
+    background-position: -4px -2px !important;
+    height: 55px !important;
+    width: 40px !important;
+  }
+
+  .navbar-brand {
+    margin: 0 !important;
+    //margin-top: 15px !important;
+  }
+
+  .brand-text_ {
+    //margin-top: -8px!important;
+    //margin-left: 5px!important;
+    margin: auto;
+
+    img {
+      //width: 50px;
+      height: 60px;
+      margin-top: 0;
+      object-fit: contain;
+    }
+  }
+
+  .nav-item.active a {
+    box-shadow: $bcon-normal-gray-shadow;
+  }
+}
+
+.main-menu.theme-primary .navigation .nav-item.active a {
+  //box-shadow: $bcon-normal-gray-shadow;
+  box-shadow: none !important;
+}
+
+.book-new-ride-wrapper {
+  padding: 0 15px;
+
+  button {
+    background: $cmn-gradient-bg;
+    color: white;
+    box-shadow: -1px 1px 8px #C8A0C6 !important;
+    border-radius: 4px;
+    padding: 12px 0px;
+    width: 100%;
+    border: transparent;
+
+    //margin: 4em 0px;
+    margin: 0px 0px 4em 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.book-new-ride-wrapper_ {
+  padding: 0 15px;
+
+  button {
+    background: $cmn-gradient-bg;
+    color: white;
+    box-shadow: -1px 1px 8px #C8A0C6 !important;
+    border-radius: 4px;
+    padding: 12px 0px;
+    width: 100%;
+    border: transparent;
+
+    margin: 4em 0px 20px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.book-new-ride-wrapper-select_ {
+  padding: 0 15px;
+
+  button {
+    background: black;
+    color: white;
+    box-shadow: -1px 1px 8px #7b7c7c !important;
+    border-radius: 4px;
+    padding: 12px 0px;
+    width: 100%;
+    border: transparent;
+
+    margin: 4em 0px 20px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+
+.book-new-ride-wrapper-select {
+  padding: 0 15px;
+
+  button {
+    background: black;
+    color: white;
+    box-shadow: -1px 1px 8px #7b7c7c !important;
+    border-radius: 4px;
+    padding: 12px 0px;
+    width: 100%;
+    border: transparent;
+
+    //margin: 4em 0px;
+    margin: 0px 0px 4em 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
