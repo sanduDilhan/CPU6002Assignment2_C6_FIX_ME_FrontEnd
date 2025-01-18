@@ -919,3 +919,59 @@ table label {
     align-items: center;
   }
 }
+
+/////
+
+.taaext-wrapper {
+  margin-bottom: 20px !important;
+
+  label {
+    //padding-left: 0.7rem!important;
+    font-size: 14px !important;
+    //color: $cmn-light-color;
+    margin-bottom: 7px;
+  }
+;
+
+
+}
+
+.tssile-wrapper {
+  //max-width: 600px;
+}
+.susssb-title {
+  color: $cmn-color;
+}
+.heasader-sect {
+  p {
+    //padding: 10px;
+    /* background: #fbedff; */
+    font-weight: 500;
+    font-size: 16px;
+
+    /* border-radius: 10px; */
+    color: $cmn-color;
+    margin-top: 0!important;
+  }
+
+  margin-bottom: 20px !important;
+}
+
+.paginatsaion .page-istem.active .paage-link {
+  background: $cmn-light-color;
+}
+
+.select__controla {
+  cursor: pointer;
+
+  &:hover {
+    border-color: hsl(0, 0%, 80%) !important;
+  }
+}
+.intl-tesl-input .countary-list .diviader {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #CCC;
+  padding-top: 0!important;
+  margin-top: 0!important;
+}
