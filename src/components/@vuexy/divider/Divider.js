@@ -21,7 +21,15 @@ class Divider extends React.Component {
           breadCrumbParent="Extra Components"
           breadCrumbActive="Divider"
         />
-        <Row>
+        {/* <Row>
+          <Col sm="12">
+            <DividerDefault />
+          </Col>
+          <Col sm="12">
+            <DividerText />
+          </Col>
+          <Col sm="12"> */}
+          <Row>
           <Col sm="12">
             <DividerDefault />
           </Col>
